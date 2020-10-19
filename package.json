@@ -9,6 +9,7 @@
   "author": "Egor Pomaskin",
   "license": "ISC",
   "devDependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "browser-sync": "^2.26.12",
     "cssmin": "^0.4.3",
     "gul": "^1.0.0",
