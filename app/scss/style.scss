@@ -2057,4 +2057,137 @@ button.icon-unsorted{
 }
 
 // end settings
+// start upload
 
+.upload__inner{
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  margin-bottom: 110px;
+  button{
+    color: #fff;
+    background-color: $green;
+    border: none;
+    padding: 15px 36px;
+    margin-left: 175px;
+    cursor: pointer;
+  }
+}
+.upload__inner-title{
+  padding: 16px 35px 18px;
+  @include f500;
+  font-size: 24px;
+  color: $bg;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 40px;
+}
+.upload__inner-content{
+  margin-bottom: 30px;
+  padding-left: 45px;
+  padding-right: 50px;
+}
+.upload-line{
+  margin-bottom: 25px;
+  display: flex;
+  label{
+    padding-top: 5px;
+    min-width: 175px;
+    padding-right: 15px;
+    color: #444444;
+    span{
+      color: $green;
+    }
+    &::placeholder{
+      color: #707070;
+    }
+  }
+  select,
+  input,
+  textarea{
+    width: 100%;
+    display: block;
+    border: 1px solid #dcdcdc;
+    height: 40px;
+    background-color: #f9f9f9;
+    padding: 0 18px;
+  }
+  textarea{
+    resize: none;
+    height: 150px;
+    padding: 8px 18px;
+  }
+  .jq-selectbox{
+    width: 100%;
+  }
+  .jq-selectbox__select{
+    height: 40px;
+    padding: 0 18px;
+    border: 1px solid #dcdcdc;
+    border-bottom-color: #dcdcdc;
+    border-radius: 0px;
+    background: #f9f9f9;
+    box-shadow: none;
+    font-family: 'Roboto-Regular', sans-serif;
+    color: #707070;
+    text-shadow: none;
+    line-height: 40px;
+  }
+  .jq-selectbox__trigger-arrow{
+    border: none;
+    top: 0;
+    right: 20px;
+    line-height: 40px;
+    &::before{
+      font-family: 'icomoon';
+      content: "\f0d7";
+    }
+  }
+  .jq-selectbox__trigger{
+    border-left: none;
+  }
+  .jq-file{
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: none;
+    height: 40px;
+    background: #f9f9f9;
+    border: 1px solid #dcdcdc;
+    outline: none;
+  }
+  .jq-file__name {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    padding: 0 18px;
+    border: none;
+    border-bottom-color: transparent;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    line-height: 40px;
+    font-size: 12px;
+    color: #707070;
+    margin-left: 100px;
+  }
+  .jq-file__browse {
+    top: 6px;
+    right: auto;
+    left: 9px;
+    padding: 0 12px;
+    line-height: 26px;
+    border-left: 0;
+    border: 1px solid #dcdcdc;
+    font-size: 12px;
+    color: #444444;
+    border-radius: 0;
+    background: #fff;
+    box-shadow: none;
+    text-shadow: none;
+  }
+  input[type="file"]{
+    outline: none;
+  }
+}
+
+// end settings
+
+@import 'media';
